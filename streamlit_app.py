@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 
+import streamlit as st
+
+st.write('Hello world!')
 # Expander section
 with st.expander("About"):
   st.write("""Trying to add a data table, chart, sidebar button with 
